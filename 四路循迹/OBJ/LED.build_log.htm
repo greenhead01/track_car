@@ -1,0 +1,115 @@
+<html>
+<body>
+<pre>
+<h1>礦ision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: μVision V5.35.0.0
+Copyright (C) 2021 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: 11111 111111, 111111, LIC=MPPLD-81UVI-IIL5V-PB5B1-YXSR9-SKUGK
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Plus  Version: 5.35.0.2
+Toolchain Path:  F:\KeilMDKARM5.35\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 7 (build 960)
+Assembler:       Armasm.exe V5.06 update 7 (build 960)
+Linker/Locator:  ArmLink.exe V5.06 update 7 (build 960)
+Library Manager: ArmAr.exe V5.06 update 7 (build 960)
+Hex Converter:   FromElf.exe V5.06 update 7 (build 960)
+CPU DLL:         SARMCM3.DLL V5.35.0.2
+Dialog DLL:      DCM.DLL V1.17.3.0
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V3.0.9.0
+Dialog DLL:      TCM.DLL V1.53.0.0
+ 
+<h2>Project:</h2>
+C:\Users\asus\Desktop\四路循迹\USER\LED.uvprojx
+Project File Date:  11/16/2022
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 7 (build 960)', folder: 'F:\KeilMDKARM5.35\ARM\ARMCC\Bin'
+Build target 'LED'
+compiling main.c...
+Tcrt.h(5): warning:  #1-D: last line of file ends without a newline
+  #endif
+pwm.h(6): warning:  #1-D: last line of file ends without a newline
+  #endif
+dir.h(10): warning:  #1295-D: Deprecated declaration AIN_Init - give arg types
+  void AIN_Init();
+dir.h(11): warning:  #1295-D: Deprecated declaration BIN_Init - give arg types
+  void BIN_Init();
+dir.h(12): warning:  #1295-D: Deprecated declaration tureleft - give arg types
+  void tureleft();
+dir.h(13): warning:  #1295-D: Deprecated declaration tureleft2 - give arg types
+  void tureleft2();
+dir.h(14): warning:  #1295-D: Deprecated declaration tureright - give arg types
+  void tureright();
+dir.h(15): warning:  #1295-D: Deprecated declaration tureright2 - give arg types
+  void tureright2();
+dir.h(16): warning:  #1295-D: Deprecated declaration stop - give arg types
+  void stop();
+dir.h(17): warning:  #1295-D: Deprecated declaration straight - give arg types
+  void straight();
+dir.h(18): warning:  #1-D: last line of file ends without a newline
+  #endif
+main.c(24): warning:  #69-D: integer conversion resulted in truncation
+  	 TIM3_Init(99,71999);	//定时器的周期设置为100ms，而200ms检测IO一次
+main.c(37): warning:  #223-D: function "turnleft2" declared implicitly
+  							turnleft2();	break;
+main.c(39): warning:  #223-D: function "turnright2" declared implicitly
+  							turnright2();		break;
+main.c(45): warning:  #223-D: function "turnleft" declared implicitly
+  					turnleft();
+main.c(49): warning:  #223-D: function "turnleft2" declared implicitly
+  					turnleft2();
+main.c(53): warning:  #223-D: function "turnleft2" declared implicitly
+  					turnleft2();
+main.c(57): warning:  #223-D: function "turnright" declared implicitly
+  					turnright();
+main.c(61): warning:  #223-D: function "turnright2" declared implicitly
+  					turnright2();
+main.c(65): warning:  #223-D: function "turnright2" declared implicitly
+  					turnright2();
+main.c(77): warning:  #1-D: last line of file ends without a newline
+   
+main.c: 21 warnings, 0 errors
+compiling dir.c...
+dir.h(10): warning:  #1295-D: Deprecated declaration AIN_Init - give arg types
+  void AIN_Init();
+dir.h(11): warning:  #1295-D: Deprecated declaration BIN_Init - give arg types
+  void BIN_Init();
+dir.h(12): warning:  #1295-D: Deprecated declaration tureleft - give arg types
+  void tureleft();
+dir.h(13): warning:  #1295-D: Deprecated declaration tureleft2 - give arg types
+  void tureleft2();
+dir.h(14): warning:  #1295-D: Deprecated declaration tureright - give arg types
+  void tureright();
+dir.h(15): warning:  #1295-D: Deprecated declaration tureright2 - give arg types
+  void tureright2();
+dir.h(16): warning:  #1295-D: Deprecated declaration stop - give arg types
+  void stop();
+dir.h(17): warning:  #1295-D: Deprecated declaration straight - give arg types
+  void straight();
+dir.h(18): warning:  #1-D: last line of file ends without a newline
+  #endif
+dir.c(82): warning:  #1-D: last line of file ends without a newline
+  }
+dir.c: 10 warnings, 0 errors
+linking...
+Program Size: Code=4436 RO-data=268 RW-data=68 ZI-data=1836  
+FromELF: creating hex file...
+"..\OBJ\LED.axf" - 0 Error(s), 31 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.STM32F1xx_DFP.2.3.0.pack
+                Keil.STM32F1xx_DFP.2.3.0
+                STMicroelectronics STM32F1 Series Device Support, Drivers and Examples
+
+<h2>Collection of Component include folders:</h2>
+  F:\KeilMDKARM5.35\Keil\STM32F1xx_DFP\2.3.0\Device\Include
+
+<h2>Collection of Component Files used:</h2>
+Build Time Elapsed:  00:00:03
+</pre>
+</body>
+</html>
